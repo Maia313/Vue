@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue</title>
+    <style>
+        .color-orange{
+            color: orange;
+        }
+
+        .is-loading{
+            background: rgb(168, 235, 168);
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <button @click="toggleClass" v:bind:title="title" :class="{'is-loading': isLoading }">Hover me</button>
+        <button :disabled="disabledState" @click="toggleDisabled">Disable</button>
+        <h1 :class="className">Gustav</h1>
+    </div>
+
+        <script src="https://unpkg.com/vue@2.1.3/dist/vue.js"></script>
+        <script>
+        
+            let app = new Vue({
+                    el:'#root',
+                    data: {
+                        className:'color-orange',
+                        isLoading:false,
+                        disabledState: false
+                },
+    
+                methods: {
+                    toggleClass(){
+                        this.isLoading = true;
+                    },
+                    toggleDisabled() {
+                        this.disabledState= true;
+                    }
+            
+                   
+                }
+                // ,
+    
+                // mounted(){
+                //     document.querySelector('#button').addEventListener('click', () => {
+                //     let name = document.querySelector('#input');
+    
+                //     app.names.push(name.value);
+    
+                //     name.value = '';
+                //     });
+                // }
+            });
+    
+    
+            
+        </script>
+</body>
+</html>

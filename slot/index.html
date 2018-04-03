@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vue</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+	<style>
+		body{ padding-top: 40px; }
+	</style>
+</head>
+<body>
+	<div id="root" class="container">
+		<modal>
+			<template slot="header">This is the end</template>
+			
+			This content will go to the modal body because it uses a default slot (unnamed), you can only have one default slot
+
+			<template slot="footer">
+				<a class="button is-primary">Save changes</a>
+				<a class="button">Cancel</a>
+			</template>
+		</modal>
+	</div>
+
+	<script src="https://unpkg.com/vue@2.1.3/dist/vue.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

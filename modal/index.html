@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
+    <style>body {padding:3em;}</style>
+    <title>Vue</title>
+</head>
+<body>
+        <div id="root" class="container">
+
+        <message title="This is a title" body="This is a body"></message>
+        <message title="This is another title" body="This is another body"></message>
+            
+        <modal v-if="showModal" @close="showModal = false"></modal>
+        <button @click="showModal = true">Show Modal</button>
+       
+        </div>
+        
+        <script src="https://unpkg.com/vue@2.1.3/dist/vue.js"></script>
+        <script src="main.js"></script>
+         
+</body>
+</html>
