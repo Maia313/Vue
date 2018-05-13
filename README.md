@@ -2,6 +2,7 @@
 
 > Modal example
 
+> HTML
 ```html
 <!-- template for the modal component -->
 <script type="text/x-template" id="modal-template">
@@ -35,7 +36,6 @@
     </div>
   </transition>
 </script>
-
 <!-- app -->
 <div id="app">
   <button id="show-modal" @click="showModal = true">Show Modal</button>
@@ -49,6 +49,8 @@
   </modal>
 </div>
 ```
+
+> Javascript
 
 ```js
 // register modal component
@@ -64,6 +66,7 @@ new Vue({
   }
 })
 ```
+> CSS
 
 ```css
 .modal-mask {
