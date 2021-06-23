@@ -31,11 +31,14 @@ const vm = app.mount('#app')
 ```diff
 ! Vue2
 ```
-```html
-<img v-bind:src="imageSrc">
-```
+
 ```diff
 + Vue3
+```
+
+```html
+<img v-bind:src="imageSrc">
+<a :href="https://github.com/Maia313"
 ```
 ---
 * **Conditional rendering**
