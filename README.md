@@ -66,13 +66,61 @@ const vm = app.mount('#app')
 
 ---
 * **List rendering**
+```html
+<div v-for="item in list" :ref="setItemRef"></div>
+```
 
 ```diff
 ! Vue2
 ```
-
+```js
+export default {
+  data() {
+    return {
+      itemRefs: []
+    }
+  },
+  methods: {
+    setItemRef(el) {
+      if (el) {
+        this.itemRefs.push(el)
+      }
+    }
+  },
+  beforeUpdate() {
+    this.itemRefs = []
+  },
+  updated() {
+    console.log(this.itemRefs)
+  }
+}
+```
 ```diff
 + Vue3
+```
+```js
+import { onBeforeUpdate, onUpdated } from 'vue'
+
+export default {
+  setup() {
+    let itemRefs = []
+    const setItemRef = el => {
+      if (el) {
+        itemRefs.push(el)
+      }
+    }
+    onBeforeUpdate(() => {
+      itemRefs = []
+    })
+    onUpdated(() => {
+      console.log(itemRefs)
+    })
+    return {
+      setItemRef
+    }
+  }
+}
+
 ```
 ---
 * **Event handling**
