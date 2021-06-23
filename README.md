@@ -6,9 +6,11 @@
 ```
 
 ```js
-var vm = new Vue({
+const app = new Vue({
   // options
 })
+
+const vm = app.$mount('#app')
 ```
 [See vue instance properties](https://vuejs.org/v2/api/#Instance-Properties)
 
@@ -17,9 +19,11 @@ var vm = new Vue({
 ```
 
 ```js
-var vm = new Vue({
-  // options
-})
+const RootComponent = {
+  /* options */
+}
+const app = Vue.createApp(RootComponent)
+const vm = app.mount('#app')
 ```
 * Attribute binding
 
