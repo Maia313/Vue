@@ -1,8 +1,14 @@
 # Vue
 
-
-
 * Vue instance
+```diff
+var x=100;
+- var y=2;
++ var y=3;
+! let orange = 'ORANGE'
+# const gray = 'GRAY'
+@@ typeOf(purple) @@
+```
 * Attribute binding
 * Conditional rendering
 * List rendering
