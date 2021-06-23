@@ -3,7 +3,12 @@
 * Vue instance
 ```diff
 ! Vue2
+
+var vm = new Vue({
+  // options
+})
 ```
+
 
 ```diff
 + Vue3
