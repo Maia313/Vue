@@ -2,7 +2,7 @@
 
 * Vue instance
 ```diff
-! Vue2
+<center>! Vue2 </center>
 ```
 
 ```diff
