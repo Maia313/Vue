@@ -157,6 +157,22 @@ export default {
 ```diff
 ! Vue2
 ```
+Options API
+
+```diff
++ Vue3
+```
+Composition API
+```js
+setup(){
+}
+```
+
+---
+* **Lifecycle methods**
+```diff
+! Vue2
+```
 
 ```diff
 + Vue3
