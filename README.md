@@ -162,20 +162,7 @@ export default {
 + Vue3
 ```
 The following table contains how the lifecycle hooks are invoked inside of setup():
-Options API |	Hook inside setup
-beforeCreate |	Not needed*
-created |	Not needed*
-beforeMount |	onBeforeMount
-mounted |	onMounted
-beforeUpdate | onBeforeUpdate
-updated |	onUpdated
-beforeUnmount |	onBeforeUnmount
-unmounted |	onUnmounted
-errorCaptured |	onErrorCaptured
-renderTracked |	onRenderTracked
-renderTriggered |	onRenderTriggered
-activated |	onActivated
-deactivated |	onDeactivated
+![Screenshot 2021-06-23 at 15 35 13](https://user-images.githubusercontent.com/28684401/123106146-af587880-d438-11eb-8e09-12c684dc22cc.png)
 
 ---
 * **Communicating events**
