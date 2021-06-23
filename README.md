@@ -3,15 +3,22 @@
 * Vue instance
 ```diff
 ! Vue2
+```
 
+```js
 var vm = new Vue({
   // options
 })
 ```
 
-
 ```diff
 + Vue3
+```
+
+```js
+var vm = new Vue({
+  // options
+})
 ```
 * Attribute binding
 
