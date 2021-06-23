@@ -7,7 +7,7 @@
 
 ```js
 const app = new Vue({
-  // options
+  /* options */
 })
 
 const vm = app.$mount('#app')
