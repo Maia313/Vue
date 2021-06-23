@@ -10,7 +10,7 @@ var vm = new Vue({
   // options
 })
 ```
-[See vue instace properties](https://vuejs.org/v2/api/#Instance-Properties)
+[See vue instance properties](https://vuejs.org/v2/api/#Instance-Properties)
 
 ```diff
 + Vue3
