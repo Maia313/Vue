@@ -35,6 +35,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Conditional rendering**
 
 ```diff
@@ -44,6 +45,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **List rendering**
 
 ```diff
@@ -53,6 +55,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Event handling**
 
 ```diff
@@ -62,6 +65,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Computed properties**
 
 ```diff
@@ -71,6 +75,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Components**
 
 ```diff
@@ -80,6 +85,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Communicating events**
 
 ```diff
@@ -89,6 +95,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Forms and v-model**
 
 ```diff
@@ -98,6 +105,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Routing**
 
 ```diff
@@ -107,6 +115,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+---
 * **Vuex**
 
 ```diff
@@ -116,9 +125,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-
-
-
+---
 
 > Modal example
 
