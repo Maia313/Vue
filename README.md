@@ -9,14 +9,95 @@
 + Vue3
 ```
 * Attribute binding
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Conditional rendering
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * List rendering
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Event handling
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Computed properties
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Components
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Communicating events
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Forms and v-model
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 * Routing
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
+* Vuex
+
+```diff
+! Vue2
+```
+
+```diff
++ Vue3
+```
 
 
 
