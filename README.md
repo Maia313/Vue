@@ -2,10 +2,7 @@
 
 * Vue instance
 ```diff
-var x=100;
-- var y=2;
-+ var y=3;
-! let orange = 'ORANGE'
+! Vue2
 # const gray = 'GRAY'
 @@ typeOf(purple) @@
 ```
