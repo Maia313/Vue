@@ -6,7 +6,7 @@
 ```
 
 ```diff
-- Vue3
++ Vue3
 ```
 * Attribute binding
 * Conditional rendering
