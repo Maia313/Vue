@@ -1,6 +1,6 @@
 # Vue
 
-* Vue instance
+* **Vue instance**
 ```diff
 ! Vue2
 ```
@@ -25,7 +25,7 @@ const RootComponent = {
 const app = Vue.createApp(RootComponent)
 const vm = app.mount('#app')
 ```
-* Attribute binding
+* **Attribute binding**
 
 ```diff
 ! Vue2
@@ -34,7 +34,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Conditional rendering
+* **Conditional rendering**
 
 ```diff
 ! Vue2
@@ -43,7 +43,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* List rendering
+* **List rendering**
 
 ```diff
 ! Vue2
@@ -52,7 +52,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Event handling
+* **Event handling**
 
 ```diff
 ! Vue2
@@ -61,7 +61,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Computed properties
+* **Computed properties**
 
 ```diff
 ! Vue2
@@ -70,7 +70,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Components
+* **Components**
 
 ```diff
 ! Vue2
@@ -79,7 +79,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Communicating events
+* **Communicating events**
 
 ```diff
 ! Vue2
@@ -88,7 +88,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Forms and v-model
+* **Forms and v-model**
 
 ```diff
 ! Vue2
@@ -97,7 +97,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Routing
+* **Routing**
 
 ```diff
 ! Vue2
@@ -106,7 +106,7 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
-* Vuex
+* **Vuex**
 
 ```diff
 ! Vue2
