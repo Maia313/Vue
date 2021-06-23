@@ -3,8 +3,10 @@
 * Vue instance
 ```diff
 ! Vue2
-# const gray = 'GRAY'
-@@ typeOf(purple) @@
+```
+
+```diff
+@@ Vue3 @@
 ```
 * Attribute binding
 * Conditional rendering
