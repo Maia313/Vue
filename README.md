@@ -31,7 +31,9 @@ const vm = app.mount('#app')
 ```diff
 ! Vue2
 ```
-
+```html
+<img v-bind:src="imageSrc">
+```
 ```diff
 + Vue3
 ```
