@@ -175,8 +175,9 @@ errorCaptured |	onErrorCaptured
 renderTracked |	onRenderTracked
 renderTriggered |	onRenderTriggered
 activated |	onActivated
+----------------------------
 deactivated |	onDeactivated
-
+----------------------------
 ---
 * **Communicating events**
 
