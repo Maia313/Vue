@@ -50,6 +50,20 @@ const vm = app.mount('#app')
 ```diff
 + Vue3
 ```
+```html
+<div v-if="type === 'A'">
+  A
+</div>
+<div v-else-if="type === 'B'">
+  B
+</div>
+<div v-else>
+  Not A/B
+</div>
+
+<h1 v-show="ok">Hello!</h1>
+```
+
 ---
 * **List rendering**
 
