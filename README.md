@@ -168,8 +168,12 @@ setup(){
 }
 ```
 
+The following table contains how the lifecycle hooks are invoked inside of `setup()`:
+
+![Screenshot 2021-06-23 at 15 35 13](https://user-images.githubusercontent.com/28684401/123106146-af587880-d438-11eb-8e09-12c684dc22cc.png)
+
 ---
-* **Lifecycle methods**
+* **Custom components**
 ```diff
 ! Vue2
 ```
@@ -177,9 +181,6 @@ setup(){
 ```diff
 + Vue3
 ```
-The following table contains how the lifecycle hooks are invoked inside of `setup()`:
-
-![Screenshot 2021-06-23 at 15 35 13](https://user-images.githubusercontent.com/28684401/123106146-af587880-d438-11eb-8e09-12c684dc22cc.png)
 
 ---
 * **Communicating events**
